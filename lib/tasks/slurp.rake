@@ -1,6 +1,6 @@
 namespace :slurp do
   desc "TODO"
-  task computers: :environment do
+  task transactions: :environment do
   
     require "csv"
 

@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
 
   get("/", { :controller => "home", :action => "show" })
+  get("/home", { :controller => "home", :action => "index" })
+
+  
 
   # Routes for the User account:
 

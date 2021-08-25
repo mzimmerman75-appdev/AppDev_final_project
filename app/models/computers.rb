@@ -1,6 +1,0 @@
-class Computers < ApplicationRecord
-
-
-
-
-end
